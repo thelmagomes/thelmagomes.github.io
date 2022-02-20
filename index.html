@@ -29,7 +29,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="oi oi-menu"></span> Menu
+	        <span class="oi oi-menu"></span> 
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
@@ -62,7 +62,7 @@
 		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
 		          	<div class="text">
 		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-t mt-3">I'm <span>Thelma Gomes</span></h1>
+			            <h1 class="mb-t mt-3">I'm <br><span>Thelma Gomes.</span></h1>
 			            <h2 style ="font-size: x-large;" class="mb-t">Graduate CS Student.</h2>
 						<h2 style ="font-size: x-large;" class="mb-t">Software Engineer.</h2>
 						<h2 style ="font-size: x-large;" class="mb-t">Technical Analyst.</h2>
@@ -100,6 +100,7 @@
 						<li class="ftco-animate"><a href="https://www.linkedin.com/in/thelma-gomes/" target="_blank"><span class="icon-linkedin"></span></a></li>
 						<li class="ftco-animate"><a href="https://github.com/thelmagomes" target="_blank"><span class="icon-github"></span></a></li>
 						<li class="ftco-animate"><a href="https://twitter.com/thelmagomes_11" target="_blank"><span class="icon-twitter"></span></a></li>
+						<li class="ftco-animate"><a href="https://medium.com/@thelmxgomes" target="_blank"><span class="icon-medium"></span></a></li>
 					  </ul>
 		          </div>
 				  <br/>
@@ -158,7 +159,7 @@
 							- Mobile Computing <br/>
 							- Operating Systems <br/>
 							<br/>
-							<br/>
+							<!-- <br/> -->
 						</p>
     				</div>
     	
@@ -178,7 +179,7 @@
     		<div class="row">
     				<div class="resume-wrap ftco-animate">
     					<span class="date">Mar 2020 - July 2021</span>
-    					<h2>Technical Support Analyst</h2>
+    					<h2>Technical Analyst</h2>
     					<span class="position">BNP Paribas India Solutions Pvt. Ltd.</span>
     					<p style =" font-size: medium; color: white;" class="mt-4">
 		
@@ -190,7 +191,7 @@
 							
 						</p>
 						<span class="date">Jun 2018- Feb 2020</span>
-    					<h2>Associate Technical Support Analyst</h2>
+    					<h2>Associate Technical Analyst</h2>
 						<span class="position">BNP Paribas India Solutions Pvt. Ltd.</span>
     					<p style =" font-size: medium; color: white;" class="mt-4">
 							•	Developed more than 20 Python and Shell scripts to automate day-to-day tasks and deliverables for Electronic Trading applications, increasing the team efficiency by 75-80%. <br/>
@@ -236,6 +237,12 @@
     					<span class="date">Web Development</span>
     					<p style =" font-size: large; color: white;" class="mt-4">
 							HTML | CSS | JavaScript | RESTful Web services
+						</p>
+    				</div>
+					<div class="resume-wrap ftco-animate">
+    					<span class="date">Operating Systems</span>
+    					<p style =" font-size: large; color: white;" class="mt-4">
+							Linux | Windows | Android
 						</p>
     				</div>
 					<div class="resume-wrap ftco-animate">
@@ -466,7 +473,8 @@
 				<div class="col-md-12 text-center">
 	  
 				  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-		Copyright &copy;<script>document.write(new Date().getFullYear());</script>  Thelma Gomes. All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+		Copyright &copy;<script>document.write(new Date().getFullYear());</script>  Thelma Gomes. All rights reserved.
+		<!-- This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> -->
 		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 				</div>
 			  </div>
@@ -500,7 +508,12 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
-    
+  <script>
+	//   To load the top of the page on every refresh.
+	  window.onbeforeunload = function () {
+  window.scrollTo(0, 0);
+}
+  </script>
 
   </body>
 </html>
